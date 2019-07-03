@@ -25,9 +25,6 @@
      js.src = "https://connect.facebook.net/pt_BR/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
-
-   FB.getLoginStatus(function(response) {
-    statusChangeCallback(response);
 });
 </script>
     <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
